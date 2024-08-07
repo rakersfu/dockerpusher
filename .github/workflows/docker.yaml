@@ -1,9 +1,9 @@
-name:Docker
+name: Docker
 
 on:
   workflow dispatch:
   push:
-    branches:main
+    branches: [ main ]
   schedule:
-    -  cron:"00 23 * * *"
+    -  cron: '00 23 * * *'
   |
